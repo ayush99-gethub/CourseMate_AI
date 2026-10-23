@@ -1,0 +1,35 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python byte code / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# SQLite / Database
+instance/
+*.db
+*.sqlite3
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Agent / Tooling files
+.agents/
+skills-lock.json
